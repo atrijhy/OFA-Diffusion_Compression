@@ -29,7 +29,7 @@ from torch.nn.functional import adaptive_avg_pool2d
 # internally (input: [0, 1] float32 → internal scale to [-1, 1]).
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, SCRIPT_DIR)
-from inception import InceptionV3
+from tools.inception import InceptionV3
 
 
 def parse_args():

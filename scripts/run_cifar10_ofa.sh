@@ -3,7 +3,7 @@
 #
 # Prerequisites:
 #   pip install -r requirements.txt
-#   EDM repo (NVlabs/edm) cloned at:   third_party/edm
+#   git submodule update --init          (pulls third_party/edm)
 #   Pretrained EDM model:               pretrained/edm-cifar10-32x32-uncond-vp.pkl
 #   CIFAR-10 dataset zip:               data/cifar10-32x32.zip
 #
