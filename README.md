@@ -76,6 +76,6 @@ scripts/     Example end-to-end run scripts
 ```bibtex
 @article{ofadiffusion2025,
   title   = {OFA-Diffusion Compression: Compressing Diffusion Model in One-Shot Manner},
-  year    = {2025},
+  year    = {2026},
 }
 ```
