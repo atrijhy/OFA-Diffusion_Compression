@@ -1,0 +1,40 @@
+# Portable bundle requirements for EDM/SD/U-ViT physical pipelines
+# Recommended Python: 3.11
+# CUDA build should match your local driver/GPU.
+
+# Core
+numpy
+scipy
+pillow
+tqdm
+click
+psutil
+packaging
+
+# PyTorch stack (install CUDA-specific wheels as needed)
+torch
+torchvision
+torchaudio
+
+# Diffusion / HF ecosystem (used by SD pipeline)
+diffusers
+transformers
+accelerate
+huggingface_hub
+safetensors
+
+# Config / model utils (used by U-ViT)
+ml-collections
+einops
+absl-py
+
+# Logging / experiment utils
+wandb
+
+# Optional but commonly used in scripts/eval
+pytorch-fid
+xformers
+
+# Notes:
+# 1) If xformers build fails, you can run without it.
+# 2) For exact reproducibility, prefer reusing your existing OFA venv.

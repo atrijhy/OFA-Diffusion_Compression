@@ -1,0 +1,45 @@
+# Outputs (checkpoints, generated images, FID results)
+outputs/
+*/outputs/
+*/*/outputs/
+
+# Datasets and pretrained models
+data/
+assets/datasets/
+pretrained/
+models/
+*/models/
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Model weights
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.pkl
+
+# Archives
+*.tar.gz
+*.zip
+
+# Misc
+.DS_Store
+*.swp
+*.swo
+RESUME_ON_LIXIUYU.md
+watch_*.sh
+watch_*.log
+wait_and_*.sh
