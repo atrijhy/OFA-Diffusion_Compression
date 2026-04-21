@@ -74,7 +74,7 @@ scripts/     Example end-to-end run scripts
 ## Citation
 
 ```bibtex
-@article{ofadiffusion2025,
+@article{ofadiffusion2026,
   title   = {OFA-Diffusion Compression: Compressing Diffusion Model in One-Shot Manner},
   year    = {2026},
 }
